@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="lvds_video_top" Register="26" Lut="53" T_Register="1306(26)" T_Alu="57(0)" T_Lut="2787(53)" T_MULT18X18="2(0)" T_MULTADDALU18X18="2(0)" T_Bsram="6(0)" T_Ssram="192(0)">
+    <SubModule name="i4" Register="50" Lut="100" T_Register="50(50)" T_Lut="100(100)"/>
+    <SubModule name="u_ap3216c" Register="55" Lut="138" MULT18X18="1" T_Register="55(55)" T_Lut="138(138)" T_MULT18X18="1(1)"/>
+    <SubModule name="gw_gao_inst_0" Register="507" Alu="13" Lut="447" Bsram="4" T_Register="507(507)" T_Alu="13(13)" T_Lut="447(447)" T_Bsram="4(4)"/>
+    <SubModule name="LVDS_7to1_RX_Top_inst" Register="49" Alu="17" Lut="30" T_Register="57(49)" T_Alu="17(17)" T_Lut="45(30)">
+        <SubModule name="lvds_71_rx" Lut="1" T_Lut="1(1)">
+            <SubModule name="LVDS_RX_rPLL_inst"/>
+        </SubModule>
+        <SubModule name="wd_aln_ctl_inst" Register="8" Lut="14" T_Register="8(8)" T_Lut="14(14)"/>
+    </SubModule>
+    <SubModule name="LVDS_7to1_TX_Top_inst" Lut="1" T_Lut="1(1)">
+        <SubModule name="LVDS_TX_rPLL_inst"/>
+        <SubModule name="ip_gddr71tx_inst"/>
+    </SubModule>
+    <SubModule name="SPI7001_25M_1M_rPLL_inst"/>
+    <SubModule name="u1" Register="88" Alu="27" Lut="1350" MULT18X18="1" MULTADDALU18X18="2" Ssram="192" T_Register="88(88)" T_Alu="27(27)" T_Lut="1350(1350)" T_MULT18X18="1(1)" T_MULTADDALU18X18="2(2)" T_Ssram="192(192)"/>
+    <SubModule name="u2" Register="216" Lut="192" Bsram="2" T_Register="216(216)" T_Lut="192(192)" T_Bsram="2(2)"/>
+    <SubModule name="u3" Register="307" Lut="461" T_Register="307(307)" T_Lut="461(461)"/>
+</Module>

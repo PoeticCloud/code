@@ -1,0 +1,150 @@
+[
+ {
+  "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+  "InstLine" : 2,
+  "InstName" : "lvds_video_top",
+  "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "lvds_video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 47,
+    "InstName" : "i4",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/i2c_dri.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "i2c_dri"
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 74,
+    "InstName" : "u_ap3216c",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/ap3216c.v",
+    "ModuleLine" : 27,
+    "ModuleName" : "ap3216c"
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 127,
+    "InstName" : "LVDS_7to1_RX_Top_inst",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "LVDS_7to1_RX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+      "InstLine" : 388,
+      "InstName" : "lvds_71_rx",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/LVDS71RX_1CLK8DATA.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "LVDS71RX_1CLK8DATA",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/LVDS71RX_1CLK8DATA.v",
+        "InstLine" : 509,
+        "InstName" : "LVDS_RX_rPLL_inst",
+        "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/gowin_rpll/LVDS_RX_rPLL.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "LVDS_RX_rPLL"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+      "InstLine" : 453,
+      "InstName" : "bit_aln_ctl_inst",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/bit_align_ctl.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "bit_align_ctl"
+     },
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+      "InstLine" : 467,
+      "InstName" : "wd_aln_ctl_inst",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_rx/word_align_ctl.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "word_align_ctl"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 149,
+    "InstName" : "LVDS_7to1_TX_Top_inst",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "LVDS_7to1_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+      "InstLine" : 128,
+      "InstName" : "LVDS_TX_rPLL_inst",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_tx/gowin_rpll/LVDS_TX_rPLL.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LVDS_TX_rPLL"
+     },
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+      "InstLine" : 234,
+      "InstName" : "ip_gddr71tx_inst",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/lvds_7to1_tx/ip_gddr71tx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "ip_gddr71tx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 175,
+    "InstName" : "SPI7001_25M_1M_rPLL_inst",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/led_part/led_pll/7001_rpll.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "SPI7001_25M_1M_rPLL"
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 183,
+    "InstName" : "u1",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/ramflag_1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "ramflag_1"
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 200,
+    "InstName" : "u2",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/sram_top_pack/sram_top_gowin.vp",
+    "ModuleLine" : 1,
+    "ModuleName" : "sram_top_gowin_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/sram_top_pack/sram_top_gowin.vp",
+      "InstLine" : 27,
+      "InstName" : "sram_top_ins",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/sram_top_pack/sram_top_gowin.vp",
+      "ModuleLine" : 43,
+      "ModuleName" : "sram_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/fpga/TEST_11.12/project/src/lvds_video_top.v",
+    "InstLine" : 213,
+    "InstName" : "u3",
+    "ModuleFile" : "D:/fpga/TEST_11.12/project/src/SPI7001_pack/SPI7001_gowin.vp",
+    "ModuleLine" : 1,
+    "ModuleName" : "SPI7001_gowin_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/fpga/TEST_11.12/project/src/SPI7001_pack/SPI7001_gowin.vp",
+      "InstLine" : 41,
+      "InstName" : "SPI7001_ins",
+      "ModuleFile" : "D:/fpga/TEST_11.12/project/src/SPI7001_pack/SPI7001_gowin.vp",
+      "ModuleLine" : 64,
+      "ModuleName" : "SPI7001"
+     }
+    ]
+   }
+  ]
+ }
+]
